@@ -17,3 +17,18 @@ var map = L.mapbox.map('map', mapId);
 map.setView([39, -96], 4);
 
 // Great, now we have a basic web map!
+
+var dataFileToAdd = 'data/restaurants.geojson';
+
+var featureLayer = L.mapbox.featureLayer();
+featureLayer.LoadURL(dataFileToAdd);
+featureLayer.addTO (map);
+
+featureLayer.on('ready',function()
+                this.eachLayer(function(layer))
+layer.setIcon(L.map.marker.icon)
+"marker-color":#8834bb",
+                "marker-size":"Large",
+                "marker-symbol":"restaurant"
+                
+                map.fitBounds(featureLayer.getBounds());
