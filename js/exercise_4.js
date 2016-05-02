@@ -5,7 +5,7 @@
 var mapId = 'susancarl.019hp669';
 
 // And this is my access token, use yours.
-var accessToken = pk.eyJ1Ijoic3VzYW5jYXJsIiwiYSI6ImNpbnA5MTJheDEwYW51a20zYWpkNjZ5eWYifQ.P9V_ZZj0a5mowJe3nRHoMQ
+var accessToken = 'pk.eyJ1Ijoic3VzYW5jYXJsIiwiYSI6ImNpbnA5MTJheDEwYW51a20zYWpkNjZ5eWYifQ.P9V_ZZj0a5mowJe3nRHoMQ'
 
 
 // Create the map object with your mapId and token,
